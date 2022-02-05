@@ -1,5 +1,5 @@
 {
-  "name": "test-vite-2",
+  "name": "sample-vite-react-ts-jest-storybook",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
