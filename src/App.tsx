@@ -1,6 +1,13 @@
 import { useState } from 'react';
+
 import logo from './logo.svg';
+import meta from './meta';
 import './App.css';
+
+if (meta.env.DEV) {
+  console.log('dev');
+}
+console.log(meta);
 
 function App() {
   const [count, setCount] = useState(0);
